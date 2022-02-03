@@ -1,0 +1,109 @@
+.edc {
+  display: flex;
+  width: 100%;
+  height: 90vh;
+  background-color:rgba(0,0,0,0.89);
+}
+.edc-right {
+  flex: 1;
+}
+.edc-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 100px;
+  
+}
+.edc-img img {
+  object-fit: cover;
+  border-radius: 10px;
+  margin-left: 30px;
+  margin-top: 70px;
+  width: 100%;
+  height: 70vh;
+ 
+}
+.edc-connect {
+  font-size: 50px;
+  font-family: "poppins", sans-serif;
+  font-weight: 900;
+  color: rgb(248, 246, 246);
+  border-bottom: 1px solid rgb(247, 243, 243);
+  margin-bottom: 20px;
+}
+.tele {
+  display: flex;
+  align-items: center;
+  font-size: 19px;
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+  color: crimson;
+  margin-bottom: 20px;
+}
+.personalemail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:0px auto 0px 0px;
+  font-size: 19px;
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+  color: crimson;
+}
+.lgedc {
+  font-size: 24px;
+  font-family: "poppins", sans-serif;
+  font-weight: 900;
+  color: rgb(250, 246, 246);
+  margin-bottom: 5px;
+}
+.edc-btn button{
+margin-top: 20px;
+background-color: crimson;
+border-radius: 120px 0px 120px 0px;
+cursor: pointer;
+color: aliceblue;
+border: none;
+width: 200px;
+height: 50px;
+}
+.abba{
+  text-decoration: none;
+  color: aliceblue;
+  font-family: "poppins", sans-serif;
+  
+}
+@media screen and (max-width:779px){
+  .edc{
+    display: flex;flex-direction: column;height: auto;
+  }
+  .edc-img img{
+    margin:auto 0px;
+    border-radius:0px;
+  }
+  .edc-left{
+    display: flex;align-items: center;justify-content: center;margin: 20px 0px  auto 10px;height: auto;
+  }
+  .edc-connect{
+          font-size: 40px;
+          
+          
+  }
+  .personalemail{
+    font-size: 14px; 
+    margin:5px auto 10px 30px;
+  }
+  .edc-btn button{
+    margin:0px auto 10px -40px;
+    border-radius: 0px;
+  }
+  .tele{
+    font-size: 15px;
+    margin:5px auto 0px 30px;
+  }
+  .lgedc{
+    margin:10px auto 10px 30px;
+    font-size: 18px;
+  }
+}
