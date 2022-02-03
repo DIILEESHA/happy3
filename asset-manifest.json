@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/happy3/static/css/main.3d521f4b.css",
+    "main.js": "/happy3/static/js/main.a6d349f2.js",
+    "static/media/meremake.png": "/happy3/static/media/meremake.c43ff082cd0edc7272c5.png",
+    "static/media/me.jpg": "/happy3/static/media/me.42fc9639c867859aff4f.jpg",
+    "index.html": "/happy3/index.html",
+    "main.3d521f4b.css.map": "/happy3/static/css/main.3d521f4b.css.map",
+    "main.a6d349f2.js.map": "/happy3/static/js/main.a6d349f2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d521f4b.css",
+    "static/js/main.a6d349f2.js"
+  ]
+}
