@@ -16,7 +16,7 @@
 .help-left {
     
   flex: 1;
-  background-color: teal;
+  background-color: rgb(25, 66, 66);
   display: flex;align-items: center;justify-content: center;
 }
 .title-changer{
