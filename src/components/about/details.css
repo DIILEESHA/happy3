@@ -282,7 +282,7 @@ width: 100%;
   }
 
   }
-  @media screen and (max-width:1400px){
+  @media screen and (min-width:1400px) and (max-width:2600px) {
     .main-details{
       display: flex;
   width: 100%;
