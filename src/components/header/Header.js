@@ -41,7 +41,7 @@ const Header = () => {
     
       </div>
       <div className="imghandler">
-        <img src="https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" />
+        <img src="https://images.pexels.com/photos/131634/pexels-photo-131634.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
       </div>
       
     </div>
