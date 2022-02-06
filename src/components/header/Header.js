@@ -33,15 +33,15 @@ const Header = () => {
         <a href="https://www.linkedin.com/in/dileesha-nawarathna-145813219/">
         <LinkedInIcon style={{ margin: "10px",height:"40px",width:"40px",color:"white"}} />
         </a>
-        <TwitterIcon style={{ margin: "10px",height:"40px",width:"40px" }} />
-        <InstagramIcon style={{ margin: "10px",height:"40px",width:"40px" }}  />
+        {/* <TwitterIcon style={{ margin: "10px",height:"40px",width:"40px" }} />
+        <InstagramIcon style={{ margin: "10px",height:"40px",width:"40px" }}  /> */}
         {/* <a href="newcocfarmer@gmail.com">
         <MailOutlineRoundedIcon style={{ margin: "10px",height:"40px",width:"40px" }} />
         </a> */}
     
       </div>
       <div className="imghandler">
-        <img src="https://images.pexels.com/photos/131634/pexels-photo-131634.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
+        <img src="https://images.pexels.com/photos/2387793/pexels-photo-2387793.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" />
       </div>
       
     </div>

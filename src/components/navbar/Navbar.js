@@ -18,7 +18,7 @@ function Navbar() {
   return (
     <nav className="nav">
       <div className="nav_titlebrand">
-        DILE<span style={{color:"crimson"}}>ESHA</span>🖤
+        DILE<span style={{color:"crimson"}}>ESHA</span>♡
       </div>
       <ul className={active}>
         <li className="nav__item">

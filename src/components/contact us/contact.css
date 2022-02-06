@@ -4,6 +4,7 @@
   display: flex;
   background-color: rgb(222, 235, 238);
   overflow: hidden;
+  background-image: url('https://images.pexels.com/photos/5541019/pexels-photo-5541019.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') no-repeat center center;
 }
 .say-right {
   flex: 1;
