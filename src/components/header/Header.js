@@ -24,6 +24,11 @@ const Header = () => {
               <FaGithub />
             </a>
           </li>
+          <li>
+            <a href="https://github.com/DILEESHA1 " target="_blank" rel="noopenner noreferrer">
+              <FaGithub />
+            </a>
+          </li>
         </ul>
       </div>
     </section>
