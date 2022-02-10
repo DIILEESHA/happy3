@@ -1,51 +1,36 @@
-import React, { useState } from "react";
+import React from 'react';
+import {useState} from 'react'
+import {CgMenuRightAlt} from 'react-icons/cg'
 import {Link} from 'react-router-dom'
-import "./navbar.css";
+import './navbar.css'
 
-function Navbar() {
-  const [active, setActive] = useState("nav__menu");
-  const [icon, setIcon] = useState("nav__toggler");
-  const navToggle = () => {
-    if (active === "nav__menu") {
-      setActive("nav__menu nav__active");
-    } else setActive("nav__menu");
 
-    // Icon Toggler
-    if (icon === "nav__toggler") {
-      setIcon("nav__toggler toggle");
-    } else setIcon("nav__toggler");
-  };
-  return (
-    <nav className="nav">
-      <div className="nav_titlebrand">
-        DILE<span style={{color:"crimson"}}>ESHA</span>♡
-      </div>
-      <ul className={active}>
-        <li className="nav__item">
-          <Link to = "/" className="nav__link">
-            HOME   +
-          </Link>
+const Menu = () => {
+    const[IsOpen ,SetIsOpen] = useState(false);
+  return <>
+  <div className="menu-btn">
+      <button onClick={()=>SetIsOpen(!IsOpen)}>
+          <CgMenuRightAlt/>
+      </button>
+  </div>
+  {IsOpen &&(
+      <header className='header open'>
+<nav>
+    <ul>
+        <li onClick={()=>SetIsOpen(false)}>
+            <Link to='/'>home</Link>
         </li>
-        <li className="nav__item">
-          <Link to="/about" className="nav__link">
-            ABOUT  + 
-          </Link>
+        <li onClick={()=>SetIsOpen(false)}>
+            <Link to='/about'>about</Link>
         </li>
-        
-        <li className="nav__item">
-          <Link to="/say-hi" className="nav__link">
-            CONTACT  +
-          </Link>
-       
+        <li onClick={()=>SetIsOpen(false)}>
+            <Link to='/say-hi'>contact</Link>
         </li>
-      </ul>
-      <div onClick={navToggle} className={icon}>
-        <div className="line1"></div>
-        <div className="line2"></div>
-        <div className="line3"></div>
-      </div>
-    </nav>
-  );
-}
+    </ul>
+</nav>
+      </header>
+  )}
+  </>;
+};
 
-export default Navbar;
+export default Menu;
