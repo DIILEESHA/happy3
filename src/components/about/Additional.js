@@ -71,7 +71,7 @@ Engineering Technology<br/>
       <div className="details-left">
         <div className="skills-details">
           <span className="sliller">Tools & Technologies</span>
-          <li className="details-itemli">
+          <li className="details-li">
             <h3>GIT</h3>
             <span className="bar">
               <span className="html1"></span>

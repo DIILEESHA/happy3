@@ -5,6 +5,7 @@ import EducaionalDetails from './EducationalDetails'
 import Footer from '../footer/Footer'
 import Additional from './Additional';
 import Navbar from '../navbar/Navbar';
+import './mainabout.css'
 
 const Mainabout = () => {
   return <div>

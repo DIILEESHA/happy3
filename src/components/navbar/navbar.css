@@ -1,6 +1,4 @@
-body{
-  overflow: hidden;
-}
+ body{}
 :root {
   --background-over: rgba(0,0,0,0.4)
 }
@@ -8,9 +6,9 @@ body{
 .header {
 
   transition: all 0.9s ease-in-out; 
-  overflow: hidden;
+
   width: 25%;
-  height: 0;
+  height: 100vh;
   right: 0;
   position: absolute;
 
@@ -32,11 +30,11 @@ body{
   margin-bottom: 30px;
   
 }
-/* /* .header nav ul li a{
+.header nav ul li a{
   font-size: 20px;
   font-family: 'Poppins', sans-serif;
-} */
-.header nav ul li{
+} 
+ .header nav ul li{
   margin:20px 0px;
   
 } 
@@ -54,4 +52,4 @@ body{
   font-size: 45px;
   z-index: 99999;
   cursor: pointer;
-}
+} 

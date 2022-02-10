@@ -45,7 +45,7 @@ const Details = () => {
       <div className="details-left">
         <div className="skills-details">
           <span className="sliller">Technical Skills</span>
-          <li className="details-itemli">
+          <li className="details-li">
             <h3>HTML</h3>
             <span className="bar">
               <span className="html"></span>

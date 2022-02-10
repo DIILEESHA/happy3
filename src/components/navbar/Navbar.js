@@ -9,7 +9,7 @@ const Menu = () => {
     const[IsOpen ,SetIsOpen] = useState(false);
   return <>
   <div className="menu-btn">
-      <button onClick={()=>SetIsOpen(!IsOpen)}>
+      <button  onClick={()=>SetIsOpen(!IsOpen)}>
           <CgMenuRightAlt/>
       </button>
   </div>
