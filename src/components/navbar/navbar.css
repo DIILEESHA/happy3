@@ -1,6 +1,7 @@
  body{}
 :root {
   --background-over: rgba(0,0,0,0.4)
+
 }
 
 .header {
@@ -57,7 +58,7 @@
   .header{
     width: 100%;
   }
-  .header .open{
-    background-color:rgba(10, 10, 10, 0.89);
+  .header.open{
+  background-color: rgba(0,0,0,0.97);
   }
 }
