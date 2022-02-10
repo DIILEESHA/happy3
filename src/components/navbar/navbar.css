@@ -53,3 +53,8 @@
   z-index: 99999;
   cursor: pointer;
 } 
+@media screen and (max-width:567px){
+  .header{
+    width: 100%;
+  }
+}
