@@ -20,7 +20,7 @@ const Header = () => {
             </a>
           </li>
           <li className="hli">
-            <a className="ali" href="https://github.com/DILEESHA1 " target="_blank" rel="noopenner noreferrer">
+            <a className="ali" href="https://github.com/DIILEESHA " target="_blank" rel="noopenner noreferrer">
               <FaGithub />
             </a>
           </li>
