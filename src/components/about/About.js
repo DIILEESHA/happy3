@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import meremake from '../../assests/meremake.png'
+import meremake from '../../assests/pro.png'
 import LensIcon from '@mui/icons-material/Lens';
 import Details from "./Details";
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
