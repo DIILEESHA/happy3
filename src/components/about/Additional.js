@@ -6,7 +6,6 @@ const Additional = () => {
   return (
     <div className="main-details">
       <div className="details-right">
-    
         {/* <span className="sbtitle">Education </span>
 
         <p className="sbpar">
@@ -25,48 +24,51 @@ Biological Science<br/>
             <CheckIcon
               style={{ margin: "40px 30px", display: "flex", color: "#444" }}
             />
-           B.Sc Hons Information Technology<br/>
-Specialization – Software Engineering<br/>
-Sri Lanka Institute of Information Technology
-
-          </span><br/>
+            B.Sc Hons Information Technology
+            <br />
+            Specialization – Software Engineering
+            <br />
+            Sri Lanka Institute of Information Technology
+          </span>
+          <br />
           <span className="ider">
             {" "}
             <CheckIcon
               style={{ margin: "10px 30px", display: "flex", color: "#444" }}
             />
-           G.C.E. Advanced Level<br/>
-Welimada Central College<br/>
-Engineering Technology<br/>
+            G.C.E. Advanced Level
+            <br />
+            Welimada Central College
+            <br />
+            Engineering Technology
+            <br />
           </span>
-          <br/><br/>
+          <br />
+          <br />
           <span className="details-str">My Services</span>
           <span className="ider">
             {" "}
             <CheckIcon
               style={{ margin: "10px 30px", display: "flex", color: "#444" }}
             />
-          Web Application Development
+            Web Application Development
           </span>
           <span className="ider">
             {" "}
             <CheckIcon
               style={{ margin: "10px 30px", display: "flex", color: "#444" }}
             />
-          Web Designing
+            Web Designing
           </span>
           <span className="ider">
             {" "}
             <CheckIcon
               style={{ margin: "10px 30px", display: "flex", color: "#444" }}
             />
-           
-           Full Stack Development
+            Full Stack Development
           </span>
         </div>
-        
       </div>
-      
 
       <div className="details-left">
         <div className="skills-details">

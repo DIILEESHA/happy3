@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "./contact.css";
-import SendIcon from "@mui/icons-material/Send";
+
 
 const Contact = () => {
   const form = useRef();
@@ -33,10 +33,10 @@ const Contact = () => {
         <p className="say-par">
         ⭐I’d love to hear from you !!!
           <br /><br/>
-          ✔️whether you want to learn more about my services, want to collaborate
+          whether you want to learn more about my services, want to collaborate
           on a project, Like what you see? Have a project you’d like to talk
           about? <br /><br/>
-          ✔️Want to ask a personal question? conect with form or my personal
+          Want to ask a personal question? conect with form or my personal
           email.
         
         </p>

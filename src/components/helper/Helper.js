@@ -1,7 +1,7 @@
 import React from 'react';
 import './helper.css'
 import LensIcon from '@mui/icons-material/Lens';
-import CircleOutlinedIcon from '@mui/icons-material/CircleOutlined';
+
 
 const Helper = () => {
   return <div className='main-help'>

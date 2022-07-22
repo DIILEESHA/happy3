@@ -1,7 +1,6 @@
 import React from "react";
 import "./self.css";
 import KeyboardDoubleArrowRightIcon from "@mui/icons-material/KeyboardDoubleArrowRight";
-import AcUnitIcon from '@mui/icons-material/AcUnit';
 
 const Self = () => {
   return (
@@ -24,7 +23,7 @@ const Self = () => {
           Web DevelopeR+
         </span>
         <div className="icon-creator">
-          <KeyboardDoubleArrowRightIcon /> <KeyboardDoubleArrowRightIcon />{" "}
+          <KeyboardDoubleArrowRightIcon /> <KeyboardDoubleArrowRightIcon />
           <KeyboardDoubleArrowRightIcon />
         </div>
       </div>

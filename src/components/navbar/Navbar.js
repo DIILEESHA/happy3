@@ -24,6 +24,9 @@ const Menu = () => {
             <Link to='/about'>about</Link>
         </li>
         <li onClick={()=>SetIsOpen(false)}>
+            <Link to='/project'>project</Link>
+        </li>
+        <li onClick={()=>SetIsOpen(false)}>
             <Link to='/say-hi'>contact</Link>
         </li>
     </ul>
