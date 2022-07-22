@@ -17,6 +17,7 @@ export default function Project() {
               <div className="sub1">
                 <div className="all">
                   <span className="projecttitle">{date.title}</span>
+                  <span className="githuburl">Technologies : {date.tec} </span>
                   <span className="githuburl">GITHUB URL : {date.github}</span>
                   <p className="projectdesc">{date.name}</p>
                 </div>
