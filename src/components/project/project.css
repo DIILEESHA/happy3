@@ -1,6 +1,6 @@
 .mainproject {
   display: flex;
-  width: 100%;
+  width: 100vw;
   overflow: hidden;
 }
 .subproject {
@@ -66,10 +66,31 @@
     display: flex;
     align-items: center;
     justify-content: center;
-   
   }
-  .projectimg{
-    margin: 30px;   
-   
+  .projectimg {
+    margin: 30px;
   }
 }
+@media screen and (max-width: 850px) {
+
+  .all{
+    margin:30px 40px;
+  }
+}
+
+@media screen and (max-width: 456px) {
+  .projectimg {
+    height: 200px;
+    margin: 20px;
+  }
+  .projecttitle {
+    margin-top: -70px;
+    font-size: 20px;
+   float: right;
+  }
+  .all{
+    margin:80px 20px;
+  }
+}
+
+
