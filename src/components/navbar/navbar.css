@@ -42,9 +42,9 @@ font-weight: bolder;
 .menu-btn button {
   position: absolute;
   right: 0;
-  background-color: black;
+  background-color: transparent;
   border: none;
-  color: rgb(241, 232, 232);
+  color:black;
   margin: 40px;
   font-size: 55px;
   z-index: 99999;
