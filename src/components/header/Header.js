@@ -1,7 +1,10 @@
 import React from "react";
 import "./header.css";
 
-import { FaGithub, FaTwitter } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub, FaMailchimp } from "react-icons/fa";
+import{GrMail} from "react-icons/gr"
+import{FiGithub} from "react-icons/fi"
+
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -16,17 +19,17 @@ const Header = () => {
           src="https://avatars.githubusercontent.com/u/89340276?v=4"
           alt=""
         />
-        <h1>Dileesha Lakshan</h1>
+        <h1 className="headernamec">Dileesha Lakshan</h1>
         <p className="fdo"> Student | Web Developer</p>
         <ul className="hul">
           <li className="hli">
             <a
               className="ali"
-              href="www.twitter.com"
+              href="https://www.linkedin.com/in/dileesha-lakshan/"
               target="_blank"
               rel="noopenner noreferrer"
             >
-              <FaTwitter />
+              <FaLinkedinIn/>
             </a>
           </li>
           <li className="hli">
@@ -36,12 +39,22 @@ const Header = () => {
               target="_blank"
               rel="noopenner noreferrer"
             >
-              <FaGithub />
+              <FiGithub />
+            </a>
+          </li>
+          <li className="hli">
+            <a
+              className="ali"
+              href="mailto:dileeshanawarathna18@gmail.com"
+              target="_blank"
+              rel="noopenner noreferrer"
+            >
+              <GrMail />
             </a>
           </li>
         </ul>
         <Link to="/say-hi">
-          <button className="headerbtn">connect with me </button>
+          <button className="headerbtn">Connect With Me </button>
         </Link>
       </div>
     </section>

@@ -49,7 +49,6 @@ h1 {
   border-bottom: 1px solid rgb(231, 226, 226);
   color: wheat;
   font-size: 36px;
-  
 }
 .hul {
   margin-top: 20px;
@@ -57,11 +56,18 @@ h1 {
   align-items: center;
   justify-content: center;
 }
+.hli {
+ 
+  
+}
 li {
-  margin: 0 20px;
+  margin: 0 10px;
 }
 .ali {
-  font-size: 60px;
+  width: 40px;
+  height: 40px;
+  font-size: 50px;
+  border-radius: 50%;
 }
 .dp {
   width: 120px;
@@ -80,17 +86,17 @@ li {
   border-radius: 0px;
   cursor: pointer;
   font-size: 15px;
+  margin-top: 20px;
   border-bottom: 1px solid #fff;
   border-top: 1px solid #fff;
-  
+
   font-family: "Open Sans", sans-serif;
   font-weight: 800;
 }
 .headerbtn:hover {
-  background-color: rgba(0,0,0,0.67);
+  background-color: rgba(0, 0, 0, 0.67);
   color: #f5deb3;
   transition: 4s;
-  
 }
 
 @media screen and (max-width: 567px) {
@@ -102,5 +108,34 @@ li {
   }
   .ali {
     font-size: 35px;
+  }
+}
+@media screen and (max-width: 334px) {
+  h1 {
+    font-size: 30px;
+  }
+  .fdo {
+    margin-top: 10px;
+    font-size: 26px;
+  }
+  .ali {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 296px) {
+  h1 {
+    font-size: 20px;
+  }
+  .fdo {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  .ali {
+    font-size: 35px;
+  }
+  .headerbtn {
+    padding: 10px 5px;
+    letter-spacing: 0;
+    text-transform: none;
   }
 }

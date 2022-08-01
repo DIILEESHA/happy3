@@ -20,7 +20,7 @@ const EducationalDetails = () => {
 </>
 <div className="edc-btn">
     
-    <button className='edr' >  <a className='abba' href="https://www.linkedin.com/in/dileesha-nawarathna-145813219/">Connect With LinkedIn</a></button></div>
+    <button className='edr' >  <a className='abba' href="https://www.linkedin.com/in/dileesha-lakshan/"  target="_blank">Connect With LinkedIn</a></button></div>
       </div>
       
   </div>;
