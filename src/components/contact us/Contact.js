@@ -46,13 +46,13 @@ const Contact = () => {
           <div className="padder">
             <label className="con-label">
               {" "}
-              Your Name
+             Name
               <input type="text" name="user_name" required />
             </label>
 
             <br />
             <label className="con-label">
-              Your Email
+            Email
               <input type="email" name="user_email" required />
             </label>
             <label className="con-label">

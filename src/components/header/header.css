@@ -7,7 +7,6 @@
 }
 
 * {
-
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -31,51 +30,77 @@ img {
   background-position: center;
 }
 .homepage .over {
-    background-image: var(--background-image);
+  background-image: var(--background-image);
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
   flex-direction: column;
 }
-h1{
-  font-family: 'Open Sans', sans-serif;
-    color: #f5deb3;
-    font-size: 67px;
-    font-weight: 800;
+h1 {
+  font-family: "Open Sans", sans-serif;
+  color: #f5deb3;
+  font-size: 67px;
+  font-weight: 600;
 }
-.fdo{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    border-bottom: 1px solid #000;
-    color: wheat;
-    font-size: 36px;
+.fdo {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  border-bottom: 1px solid rgb(231, 226, 226);
+  color: wheat;
+  font-size: 36px;
+  
 }
-.hul{
-    margin-top: 20px;
-    display: flex;
-    align-items: center;justify-content: center;
+.hul {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-li{
-margin: 0 20px;
+li {
+  margin: 0 20px;
 }
-.ali{
-    font-size: 60px;
+.ali {
+  font-size: 60px;
 }
-.dp{
-width: 120px;
-height: 120px;
-border-radius: 50%;
-object-fit: cover;
+.dp {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
 }
-@media screen and (max-width:567px){
-  h1{
+.headerbtn {
+  color: #f5deb3;
+  background-color: transparent;
+  padding: 20px;
+  border: 1px solid white;
+  text-transform: uppercase;
+  letter-spacing: 0.33em;
+  margin-top: 10px;
+  border-radius: 0px;
+  cursor: pointer;
+  font-size: 15px;
+  border-bottom: 1px solid #fff;
+  border-top: 1px solid #fff;
+  
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+}
+.headerbtn:hover {
+  background-color: rgba(0,0,0,0.67);
+  color: #f5deb3;
+  transition: 4s;
+  
+}
+
+@media screen and (max-width: 567px) {
+  h1 {
     font-size: 40px;
   }
-  .fdo{
+  .fdo {
     font-size: 26px;
   }
-  .ali{
+  .ali {
     font-size: 35px;
   }
 }

@@ -2,12 +2,15 @@
   display: flex;
   width: 100vw;
   overflow: hidden;
+ 
 }
 .subproject {
+  margin-top: 100px;
   flex: 1;
   /* border: 1px soli black; */
 }
 .sub1 {
+  margin-top: 100px;
   flex: 1;
   /* border: 1px solid black; */
 }
@@ -61,6 +64,11 @@
   font-family: "Poppins", sans-serif;
 }
 @media screen and (max-width: 1150px) {
+  .sub1 {
+    margin-top: 0px;
+    flex: 1;
+    /* border: 1px soli black; */
+  }
   .mainproject {
     flex-direction: column;
     display: flex;

@@ -6,16 +6,16 @@ body {
 
 .header {
   transition: all 0.9s ease-in-out;
-
+background-color: #000;
   width: 100%;
-  height: 100vh;
+
 
   right: 0;
-  position: absolute;
+
 }
 
 .header.open {
-  height: auto;
+  height: 100vh;
   background-color: var(--background-over);
 }
 .header nav ul {
@@ -35,8 +35,8 @@ body {
 }
 .header nav ul li a {
   font-size: 48px;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-font-weight: bolder;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bolder;
   text-transform: uppercase;
 }
 .menu-btn button {
@@ -44,12 +44,13 @@ font-weight: bolder;
   right: 0;
   background-color: transparent;
   border: none;
-  color:black;
+  color: rgb(160, 121, 121);
   margin: 40px;
   font-size: 55px;
   z-index: 99999;
   height: 90px;
   width: 90px;
+  font-size: 80px;
   cursor: pointer;
 }
 
@@ -59,7 +60,6 @@ font-weight: bolder;
   }
   .header nav ul li a {
     font-size: 20px;
-   
   }
   .header.open {
     background-color: rgba(0, 0, 0, 0.97);
